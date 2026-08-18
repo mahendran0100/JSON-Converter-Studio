@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563EB"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+ <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#0F766E"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-opacity=".25"/></filter>
+</defs>
+<rect x="10" y="10" width="236" height="236" rx="54" fill="url(#bg)"/>
+<rect x="28" y="28" width="200" height="200" rx="44" fill="#0F172A" opacity=".28"/>
+<path d="M82 67 C58 67 58 91 58 112v32c0 21 0 45 24 45" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+<path d="M174 67 C198 67 198 91 198 112v32c0 21 0 45-24 45" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+<path d="M93 101h48M93 128h48M93 155h30" stroke="#BFDBFE" stroke-width="12" stroke-linecap="round"/>
+<path d="M166 133c-25 0-45 20-45 45 0 34 45 57 45 57s45-23 45-57c0-25-20-45-45-45z" fill="url(#pin)" filter="url(#shadow)"/>
+<circle cx="166" cy="178" r="14" fill="#fff"/>
+<path d="M159 178l5 5 10-12" fill="none" stroke="#0F766E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

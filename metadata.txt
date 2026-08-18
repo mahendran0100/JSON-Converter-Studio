@@ -1,0 +1,19 @@
+[general]
+name=JSON Converter Studio
+qgisMinimumVersion=3.28
+qgisMaximumVersion=3.99
+description=Convert JSON data to CSV, Excel, GeoJSON, and QGIS point layers.
+about=JSON Converter Studio is a QGIS data utility for loading JSON files or folders, flattening nested records, removing duplicates, mapping fields, previewing data, detecting latitude/longitude, exporting CSV/Excel/GeoJSON, and creating validated EPSG:4326 point layers directly in QGIS. Includes a live processing log. Developed by S Mahendran. No external Python packages are required.
+version=1.1.2
+author=S Mahendran
+email=
+category=Vector
+tags=json,conversion,csv,excel,geojson,point,coordinates,gis
+hasProcessingProvider=False
+experimental=False
+deprecated=False
+icon=icon.svg
+license=GPL-2.0-or-later
+homepage=https://github.com/mahendran0100/JSON-Converter-Studio
+repository=https://github.com/mahendran0100/JSON-Converter-Studio
+tracker=https://github.com/mahendran0100/JSON-Converter-Studio/issues
